@@ -3,13 +3,14 @@ import {
   FadeInLRUDRenderWrapper,
   FadeInOpacityRenderWrapper,
 } from "../libs/animations.js";
+import AnimatedText from "./AnimatedText.js";
 
 export default function Index({ currentIndex, scrollToIndex }) {
   return (
     <div className="sm:pl-32 pl-6">
       <FadeInOpacityRenderWrapper currentIndex={currentIndex} index={1}>
         <img
-          className="absolute right-3 bottom-3 w-8/12 lg:w-auto lg:h-2/4"
+          className="absolute right-3 bottom-3 w-6/12"
           backgroundImage
           src="/images/programming.svg"
           alt="man laptop"
@@ -22,8 +23,14 @@ export default function Index({ currentIndex, scrollToIndex }) {
       >
         <div className="grid grid-cols-1 sm:w-7/12 xl:w-9/12 h-screen content-center">
           <div>
-            <h1 className="uppercase text-white subpixel-antialiased font-semibold text-6xl xl:text-9xl">
-              Hi<span className="text-red-700">,</span> I<span className="text-red-700">'</span>m Jóhann<span className="text-red-700">.</span>
+            <h1 className="uppercase subpixel-antialiased font-semibold">
+              <AnimatedText text="Hi" prefix="greeting_start" colorFrom="#fff" colorTo="#b91c1c" fontSizeTo="7rem" fontSizeFrom="6rem" />
+              <span className="red-text text-red-700">,</span>
+              <AnimatedText text=" I" prefix="greeting_middle" colorFrom="#fff" colorTo="#b91c1c" fontSizeTo="7rem" fontSizeFrom="6rem"/>
+              <span className="red-text text-red-700">'</span>
+              <AnimatedText text="m Jóhann" prefix="greeting_end" colorFrom="#fff" colorTo="#b91c1c" fontSizeTo="7rem" fontSizeFrom="6rem" />
+              <span className="red-text text-red-700">.</span>
+              {/* Hi<span className="text-red-700">,</span> I<span className="text-red-700">'</span>m Jóhann<span className="text-red-700">.</span> */}
             </h1>
           </div>
           <div>

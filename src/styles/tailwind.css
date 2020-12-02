@@ -4,8 +4,27 @@
 
 body {
   overflow: hidden;
+  cursor: default;
 }
 
 .w-screen-50 {
   width: 50vw;
+}
+
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.grayscale-off {
+  -webkit-filter: none;
+  filter: none,
+}
+
+.min-h-max {
+  min-height: max-content;
+}
+
+.red-text {
+  font-size: clamp(3rem, -0.875rem + 8.333333vw, 6rem);
 }
