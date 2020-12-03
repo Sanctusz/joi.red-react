@@ -36,7 +36,7 @@ export default function Skills({ x, y, currentIndex }) {
         index={1}
         fadeIn="left"
       >
-        <div className="grid grid-cols-1 w-screen-50 h-screen content-center">
+        <div className="grid grid-cols-1 sm:w-1/2 w-full sm:h-screen h-4/6 content-center">
           <div className="pl-5">
             <h1 className="uppercase text-white subpixel-antialiased font-semibold">
               <AnimatedText text="Skills" prefix="skills_start" colorFrom="#fff" colorTo="#b91c1c" fontSizeTo="7rem" fontSizeFrom="6rem" />
@@ -45,10 +45,10 @@ export default function Skills({ x, y, currentIndex }) {
               <span className="text-red-700 red-text">.</span>
             </h1>
           </div>
-          <div className="pl-9 pt-5 text-white">
+          <div className="px-9 sm:pt-5 text-white">
             I thorougly enjoy working on full-stack projects. Treating it as if I were finishing up a good puzzle, building each element/puzzle piece and making sure everything connects up beautifully at the end.
           </div>
-          <div className="pl-9 pt-5 text-xl text-white">
+          <div className="px-9 pt-5 text-xl text-white hidden sm:block">
             <span className="text-red-700">
               Recently
             </span> worked with <a href="https://hbs.is" className="text-red-700">

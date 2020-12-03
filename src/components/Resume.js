@@ -42,7 +42,7 @@ export default function Resume({ currentIndex }) {
               >
                 <div className="flex leading-5">
                   <svg
-                  width="24"
+                    width="24"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -88,17 +88,15 @@ export default function Resume({ currentIndex }) {
               </a>
             </div>
           </div>
-          <div className="pl-9 pt-5">
-            <h3 className="text-4xl text-red-700 font-semibold uppercase">
+          <div className="pl-9 xl:pt-5 hidden lg:block">
+            <h3 className="xl:text-4xl sm:text-xl text-red-700 font-semibold uppercase">
               Education
             </h3>
             <div className="grid grid-cols-1 divide-y divide-red-700 pl-12">
               <div className="p-2">
                 <div className="text-white italic">Háskólinn í Reykjavík</div>
                 <div className="text-white italic text-sm">
-                  BS in Computer Science
-                  <span className="text-red-700"> | </span>
-                  June 2020
+                  BS in Computer Science | June 2020
                 </div>
                 <ul className="list-inside bg-rose-200 text-white text-xs m-2">
                   <li>
@@ -110,8 +108,7 @@ export default function Resume({ currentIndex }) {
               <div className="p-2">
                 <div className="text-white italic">Háskóli Íslands</div>
                 <div className="text-white italic text-sm">
-                  BA in Japanese Language and Culture
-                  <span className="text-red-700"> | </span>June 2017
+                  BA in Japanese Language and Culture | June 2017
                 </div>
                 <ul className="list-inside bg-rose-200 text-white text-xs m-2">
                   <li>Exchange Year in Osaka, Japan 2016-2017</li>
@@ -120,16 +117,15 @@ export default function Resume({ currentIndex }) {
               </div>
             </div>
           </div>
-          <div className="pl-9 pt-5">
-            <h3 className="text-4xl text-red-700 font-semibold uppercase">
+          <div className="pl-9 xl:pt-5 hidden xl:block">
+            <h3 className="xl:text-4xl sm:text-xl text-red-700 font-semibold uppercase">
               Work History
             </h3>
             <div className="grid grid-cols-1 divide-y divide-red-700 pl-12">
               <div className="p-2">
                 <div className="text-white italic">Hljóðbókasafn Íslands</div>
                 <div className="text-white italic text-sm">
-                  Computer Scientist<span className="text-red-700">, </span>
-                  Summer 2020
+                  Computer Scientist, Summer 2020
                 </div>
                 <ul className="list-inside bg-rose-200 text-white text-xs m-2">
                   <li>
@@ -141,9 +137,7 @@ export default function Resume({ currentIndex }) {
               <div className="p-2">
                 <div className="text-white italic">Reykjavík Excursions</div>
                 <div className="text-white italic text-sm">
-                  Tour Guide
-                  <span className="text-red-700">, </span>2018
-                  <span className="text-red-700">-</span>2020
+                  Tour Guide, 2018-2020
                 </div>
                 <ul className="list-inside bg-rose-200 text-white text-xs m-2">
                   <li>

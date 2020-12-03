@@ -7,7 +7,7 @@ export default function Navbar({ currentIndex, scrollToIndex }) {
       <div className="flex items-center justify-center h-24 w-screen relative">
         <Reveal repeat>
           <Tween from={{ opacity: 0 }} delay={1} duration={2}>
-            <button onClick={() => scrollToIndex(1)} className="h-16 w-16 focus:outline-none top-6 left-6 absolute">
+            <button onClick={() => scrollToIndex(1)} className="h-16 w-16 focus:outline-none sm:top-6 sm:left-6 top-1 -left-1 absolute">
               <img
                 className=""
                 src="/images/jsi_logo.svg"
