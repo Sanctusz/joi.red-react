@@ -1,2 +1,2 @@
 ## React Remake
-Just my personal website made using React & Tailwind CSS
+Just my personal website remade using React & Tailwind CSS
