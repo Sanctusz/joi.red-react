@@ -9,7 +9,6 @@ export default function AnimatedText({ text, prefix, colorFrom, colorTo, fontSiz
   });
 
   function animateIn(idx) {
-    console.log("hover in");
     gsap.to(`#${prefix}${idx}`, {
       fontSize: `clamp(2.5rem, 0.875rem + 8.333333vw, ${fontSizeTo})`,
       color: colorTo
@@ -17,7 +16,6 @@ export default function AnimatedText({ text, prefix, colorFrom, colorTo, fontSiz
   }
   
   function animateOut(idx) {
-    console.log("hover out");
     gsap.to(`#${prefix}${idx}`, {
       fontSize: `clamp(2rem, -0.875rem + 8.333333vw, ${fontSizeFrom})`,
       color: colorFrom,

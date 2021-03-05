@@ -30,21 +30,12 @@ export default function Index({ currentIndex, scrollToIndex }) {
               <span className="red-text text-red-700">'</span>
               <AnimatedText text="m Jóhann" prefix="greeting_end" colorFrom="#fff" colorTo="#b91c1c" fontSizeTo="7rem" fontSizeFrom="6rem" />
               <span className="red-text text-red-700">.</span>
-              {/* Hi<span className="text-red-700">,</span> I<span className="text-red-700">'</span>m Jóhann<span className="text-red-700">.</span> */}
             </h1>
           </div>
           <div>
             <h2 className="text-2xl text-red-700 lowercase">
-              Computer Scientist
+              Full-Stack Engineer
             </h2>
-          </div>
-          <div>
-            {/* <button
-              onClick={() => scrollToIndex(5)}
-              className="p-3 my-3 uppercase text-red-700 border font-medium rounded-lg focus:outline-none"
-            >
-              Contact
-            </button> */}
           </div>
         </div>
       </FadeInLRUDRenderWrapper>

@@ -28,3 +28,7 @@ body {
 .red-text {
   font-size: clamp(2rem, -0.875rem + 8.333333vw, 6rem);
 }
+
+.contact-svg:hover {
+  fill:white;
+}
