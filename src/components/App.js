@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
 import Navbar from "./Navbar";
-import Index from "./Index";
-import About from "./About";
-import Skills from "./Skills";
-import Resume from "./Resume";
-import Contact from "./Contact";
+import Index from "../pages/Index";
+import About from "../pages/About";
+import Skills from "../pages/Skills";
+import Resume from "../pages/Resume";
+import Contact from "../pages/Contact";
 import { scroller as scroll } from "react-scroll";
 import ReactScrollWheelHandler from "react-scroll-wheel-handler";
 

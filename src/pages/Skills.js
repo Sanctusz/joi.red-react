@@ -1,8 +1,8 @@
 import React, { createRef, useEffect, useRef } from "react";
-import Skill from "./Skill";
+import Skill from "../components/Skill";
 import { FadeInLRUDRenderWrapper } from "../libs/animations.js";
 import { Back, TweenMax } from "gsap/gsap-core";
-import AnimatedText from "./AnimatedText";
+import AnimatedText from "../components/AnimatedText";
 
 export default function Skills({ x, y, currentIndex }) {
   let refArray = [...new Array(15)].map(() => createRef());

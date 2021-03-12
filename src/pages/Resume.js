@@ -1,6 +1,6 @@
 import React from "react";
 import { FadeInOpacityRenderWrapper } from "../libs/animations.js";
-import AnimatedText from "./AnimatedText.js";
+import AnimatedText from "../components/AnimatedText.js";
 
 export default function Resume({ currentIndex }) {
   return (

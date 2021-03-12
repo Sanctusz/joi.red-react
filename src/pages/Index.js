@@ -3,7 +3,7 @@ import {
   FadeInLRUDRenderWrapper,
   FadeInOpacityRenderWrapper,
 } from "../libs/animations.js";
-import AnimatedText from "./AnimatedText.js";
+import AnimatedText from "../components/AnimatedText.js";
 
 export default function Index({ currentIndex, scrollToIndex }) {
   return (
