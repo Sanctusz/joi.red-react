@@ -31,7 +31,6 @@ function App() {
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   function scrollToNextIndex() {
-    console.log(currentIndex);
     scroll.scrollTo("p" + currentIndex.toString(), {
       duration: 1000,
       delay: 0,
